@@ -1,107 +1,357 @@
 *{
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Monserrat, sans-serif;
+    font-weight: normal;
+    font-style: normal;
     margin:0px;
     padding: 0px;
     box-sizing: border-box;
-
-}
-header h1{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    top:10rem;
-    margin-left:4rem;
-    margin-bottom: 1rem;
-    font-size:3.5rem;
+    background-color: rgb(255, 255, 255);
 
 }
 
-header{
-    background-color:rgb(0, 0, 0);
-}
-
-header img{
-    margin-left: 2rem;
-    margin-bottom: 4rem;
-
-    width: 50vw;
-    height: 90vh;
-    object-fit: cover;
+.hero-container{
+    background:url(./Assets/design1_image1.jpg) center/cover ;
+    height: 100vh;
+    position: relative;
     
-}
 
-nav{
-    margin-right: 1rem;
+}
+.hero-container::before{
+    content: "";
+    background: #000000;
     position: absolute;
-    top: 4rem;
-    right: 2rem;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+}
+.hero-body{
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-nav a{
-    
-    display: inline-block;
-    height: 25px;
-    width: 100px;
-    margin: 5px;
-    padding: 5px;
-    
+.click-aqui{
+    color: white;
+    font-size: 2rem;
+    top: 85%;
+    left: 40%;
+    padding: 1rem;
+    opacity: 70%;
+    border-radius:10px;
+    position: absolute;
+}
+.click-aqui a{
+    font-family:'Alfa Slab One'; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.click-aqui:hover{
+    text-decoration: underline;
+
+}
+
+h1{
+    font-family: 'Alfa Slab One';
+
+    margin-top: 20rem;
+    align-self: center;
+    justify-self: center;
+    background-color: transparent;
     color: rgb(255, 255, 255);
-    text-align: center;
+    font-size: 7rem;
+
+}
+nav{
+    
+    background-color: transparent;
+    display: flex;
+    position:absolute;
+    top:2rem;
+    right:2rem;
+    flex-wrap: wrap;
+    
+
+}
+nav a{
+    font-family: 'Alfa Slab One';
+    background-color: transparent;
+    color:white;
+    margin:2rem;
     text-decoration: none;
     
-}
 
+}
 nav a:hover{
     text-decoration: underline;
+}
+nav a:active{
+    color:crimson;
+}
+
+main{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-family: 'Alfa Slab One';
+    background-color: transparent;
     
 }
 
 #logo{
-    width: 10rem;
-    height: 10rem;
-    position: absolute;
-    top: 15%;
-    left:55%
+    width: 500px;
+    height: 500px;
+    opacity: 70%;
+    background-color: black;
+    align-self: start;
+    justify-self: end;
+    margin-top: -10rem;
+}
+
+.card{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: 4rem;
+}
+
+#proximos-eventos{
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+}
+#proximos-eventos h2{
+    
+    font-family: 'Alfa Slab One';
+    background-color: transparent;
     
 }
 
-.Events{
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    display: inline;
-    position: absolute;
-    font-size: 3rem;
-    top: 20%;
-    right:2%;
-
-}
 .fechas{
-    color: white;
-    display: inline-block;
-    position: absolute;
-    top:40%;
-    right: 5%;
+justify-self: center;
+align-self: center;
+margin-top: 4rem;
+}
+.fechas dl,dd,dt{
+font-family:'Alfa Slab One' ;
+background-color: rgba(0, 0, 0, 0.884);
+color: rgb(255, 255, 255);
+font-size: 2rem;
+}
+dd{
+    text-indent: 3rem;
+}
+
+#volver{
+    background-color: black;
+    font-size: 1.5rem;
+    margin-top: -5rem;
+    margin-left: 90%;
+    
+
+}
+#volver a{
+    font-family:  'Alfa Slab One'; 
+    background-color:white;
+    color: rgb(0, 0, 0);
+    opacity: 70%;
+    padding: 1rem;
+    border-radius:10px;
+    text-decoration: none;
+}
+#volver a:hover{
+    background-color: crimson;
+}
+.card-about{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    font-size: 4rem;
+}
+
+.about-text{
+    align-self: center;
+    margin-left: 35rem;
+    margin-right: 15rem;
+
+    }
+
+.about-text dl{
+    padding: 1rem;
     
 }
 
-.sangria{
-    text-indent: 1rem;
-    font-weight: normal;
-    font-style: normal;
+.about-text dt{
+    text-decoration: underline;
 }
 
-.about{
-    color: white;
-    display: block;
-    position: absolute;
-    top:40%;
-    right: 2%;
+.about-text dl,dd,dt{
+font-family:'Alfa Slab One' ;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font-size: 1.5rem;
+flex-wrap: wrap;
+text-align: justify;
+}
+
+#about{
+    justify-self: center;
+    align-self: center;
+    background-color: transparent;
+}
+#about h2{
+    font-family: 'Alfa Slab One';
+    background-color: transparent;
     
 }
 
-.contact{
+#logo-about{
+    width: 500px;
+    height: 500px;
+    opacity: 70%;
+    background-color: black;
+    margin-top: -20rem;
+
+}
+.click-aqui-about{
     color: white;
-    display: inline-block;
+    font-size: 2rem;
+    top: 85%;
+    left: 45%;
+    padding: 1rem;
+    opacity: 70%;
+    border-radius:10px;
     position: absolute;
-    top:45%;
-    right: 10%;
+}
+.click-aqui-about a{
+    font-family:'Alfa Slab One'; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.click-aqui-about:hover{
+    text-decoration: underline;
+
+}
+
+.card-contact{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 4rem;
+
+}
+#contact{
+    
+    background-color: black;
+}
+#contact h2{
+    font-family:'Alfa Slab One'; 
+    margin-top: -15rem;
+    background-color: black;
+    
+}
+.contact {
+    justify-self: center;
+    align-self: center;
+    background-color: black;
+
+}
+
+.contact a,h3{
+    background-color: black;
+    font-size: 2rem;
+    
+
+}
+.contact a{
+    color: rgb(86, 86, 221);
+}
+
+.card-info{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+    
+}
+
+#info{
+    font-family:'Alfa Slab One'; 
+    color: black;
+}
+#info h2{
+    font-size: 5rem;
+    justify-self: center;
+    align-self: start;
+}
+#info h4{
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    justify-self: start;
+    align-self: start;
+}
+#info h2,h4{
+    background-color: rgb(255, 255, 255);
+    font-family:'Alfa Slab One'; 
+    color: rgb(0, 0, 0);
+    
+} 
+
+.table tr,td,th{
+    border-collapse: collapse;
+    font-size: 2rem;
+    margin: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+.card-extra{
+    font-size: 4rem;
+    margin-left: 10rem;
+    margin-bottom: 4rem;
+}
+
+.lista-desordenada{
+    color: black;
+    font-size: 1rem;
+}
+
+.lista-numero{
+    color: black;
+    font-size: 1rem;
+}
+
+.card-reglas{
+    margin: 4rem;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    font-size: 1rem;
+}
+
+#reglas h2,h4{
+    font-size: 4rem;
+    flex-wrap: wrap;
+    color: black;
+    font-family:'Alfa Slab One'; 
+    justify-self: start;
+    align-self: center;
+    top:-40rem;
 }

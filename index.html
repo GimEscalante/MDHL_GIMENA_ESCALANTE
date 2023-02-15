@@ -6,46 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mighty Ducks Hockey League</title>
 <link rel="shortcut icon" href="./Assets/favicon.png" type="image/x-icon">
-<link rel="stylesheet" href="styles.css">
-<!-- <link rel="stylesheet" href="styles2.css"> -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="styles.css"> -->
+<link rel="stylesheet" href="styles2.css">
 
 </head>
 <body>
-<header>
-    <h1>Mighty Ducks Hockey League</h1>
-    <img src="./Assets/design1_image1.jpg" alt="img1">
-</header>
-<nav>
-    <a href="#">Home</a> 
-    <a href="./about.html"> About</a> 
-    <a href="./contact.html">Contact</a>
-
+    <div class="hero-container">
+        <div class="hero-body">
+            <h1>Mighty Ducks Hockey League</h1>
+            
+        </div>
+        
+    </div>
+    <div class="click-aqui">
+        <a href="index.html#proximos-eventos"> UPCOMING EVENTS</a>
+    </div> 
+<nav id="inicio">
+    <a href="#">HOME</a> 
+    <a href="./about.html"> ABOUT</a> 
+    <a href="./contact.html">CONTACT</a>
+    <a href="./info.html">JUEGOS</a>
+    <a href="./reglas.html">REGLAS</a>
 </nav>
 <main>
+    
     <div class="card">
-        <section class="Events">
+        <section id="proximos-eventos">
             <h2>Upcoming Events</h2>
         </section>
-        
-        <img id="logo" src="../Gimena_Escalante_T1_M1/ASSETS/Logo_Mighty_ducks-01.png" alt="Logo"  >
         <section class="fechas">
+            <dl>
+                <dt>August 4</dt>
+                <dd>MDSL Fundraiser</dd>
+            </dl>
+            <dl>
+                <dt>August 16</dt>
+                <dd>Season Kick-off: Meet the Teams</dd>
+            </dl>
+            <dl>
+                <dt>September 1</dt>
+                <dd>First Game of the Season <br>(Check Game Schedule for details)</dd>
+            </dl>
+        </section>  
+    
         
-            <h3 >August 4</h3>
-            <h3 class="sangria" >MDSL Fundraiser </h3> <br>
-            <h3 >August 16</h3>
-            <h3 class="sangria">Season Kick-off: Meet the Teams </h3><br>
-            <h3 >September 1</h3>
-            <h3 class="sangria">First Game of the Season (Check Game Schedule for details) </h3>
+        <img id="logo" src="./Assets/Logo_Mighty_ducks-01.png" alt="Logo">
+    </div> 
     
-            
-        </section>
-    </div>
-    
+
+<div id="volver">
+    <a href="index.html#inicio" > VOLVER </a>
+</div> 
+
         
 </main>
 
-
-
-
+<!-- <footer>
+    <h2> &reg; 2023</h2>
+</footer> -->
 </body>
 </html>
