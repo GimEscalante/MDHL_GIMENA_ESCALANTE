@@ -293,6 +293,7 @@ text-align: justify;
 }
 #info h2{
     font-size: 5rem;
+    
     justify-self: center;
     align-self: start;
 }
@@ -309,32 +310,52 @@ text-align: justify;
     
 } 
 
-.table tr,td,th{
+table {
     border-collapse: collapse;
     font-size: 2rem;
-    margin: 2rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
-}
 
+}
+th,td{
+    text-align: center;
+    width: 18rem;
+    height: 3rem;
+}
 .card-extra{
-    font-size: 4rem;
-    margin-left: 10rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
+    margin-top: -6rem;
+    
 }
-
+.card-extra h4{
+    font-size: 1.5rem;
+    flex-wrap: wrap;
+    text-align: justify;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.contactos{
+    display: flex;
+}
 .lista-desordenada{
     color: black;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin: 1rem;
+    margin-right: 10rem;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
 .lista-numero{
     color: black;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    margin-right: 10rem;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
 .card-reglas{
-    margin: 4rem;
+    margin-left: 3rem;
     flex-wrap: wrap;
     width: 100vw;
     height: 100vh;
@@ -343,15 +364,27 @@ text-align: justify;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    font-size: 1rem;
+    
 }
 
-#reglas h2,h4{
-    font-size: 4rem;
+#reglas h4{
+    font-size: 2rem;
     flex-wrap: wrap;
     color: black;
+    text-align: center;
     font-family:'Alfa Slab One'; 
-    justify-self: start;
-    align-self: center;
-    top:-40rem;
+
+    
 }
+#reglas h2{
+    font-size: 3rem;
+    color: black;
+    font-family:'Alfa Slab One'; 
+    text-align: center;
+}
+
+.subrayado{
+    font-size: 0.5rem;
+    text-decoration: underline;
+}
+
