@@ -11,6 +11,7 @@
 
 .hero-container{
     background:url(./Assets/design1_image1.jpg) center/cover ;
+    width: 100vw;
     height: 100vh;
     position: relative;
     
@@ -33,8 +34,8 @@
 }
 
 .click-aqui{
-    color: white;
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
     top: 85%;
     left: 40%;
     padding: 1rem;
@@ -60,7 +61,7 @@ h1{
     justify-self: center;
     background-color: transparent;
     color: rgb(255, 255, 255);
-    font-size: 7rem;
+    font-size: 9rem;
 
 }
 nav{
@@ -80,6 +81,7 @@ nav a{
     color:white;
     margin:2rem;
     text-decoration: none;
+    font-size: 1.5rem;
     
 
 }
@@ -91,18 +93,16 @@ nav a:active{
 }
 
 main{
-    background-color: black;
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     font-family: 'Alfa Slab One';
-    background-color: transparent;
+    
     
 }
 
 #logo{
     width: 500px;
     height: 500px;
-    opacity: 70%;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     align-self: start;
     justify-self: end;
     margin-top: -10rem;
@@ -113,19 +113,21 @@ main{
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
-    font-size: 4rem;
+    background-color: rgb(255, 255, 255);
+    
 }
 
 #proximos-eventos{
+    
     justify-self: center;
     align-self: center;
     background-color: transparent;
 }
 #proximos-eventos h2{
-    
+    font-size: 8rem;
     font-family: 'Alfa Slab One';
-    background-color: transparent;
+    background-color: white;
+    color: black;
     
 }
 
@@ -133,50 +135,64 @@ main{
 justify-self: center;
 align-self: center;
 margin-top: 4rem;
+margin-left: 5rem;
+
+
 }
-.fechas dl,dd,dt{
-font-family:'Alfa Slab One' ;
-background-color: rgba(0, 0, 0, 0.884);
-color: rgb(255, 255, 255);
-font-size: 2rem;
+.fechas dt{
+font-family:'Alfa Slab One';
+font-size: 5rem;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+
 }
+.fechas dd{
+    font-family:'Alfa Slab One';
+    font-size: 3rem;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    
+    }
 dd{
     text-indent: 3rem;
 }
 
 #volver{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-size: 1.5rem;
-    margin-top: -5rem;
+    margin-top: -8rem;
     margin-left: 90%;
+    
     
 
 }
 #volver a{
     font-family:  'Alfa Slab One'; 
-    background-color:white;
-    color: rgb(0, 0, 0);
+    background-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     opacity: 70%;
     padding: 1rem;
     border-radius:10px;
     text-decoration: none;
 }
 #volver a:hover{
-    background-color: crimson;
+    background-color: rgb(255, 0, 51);
 }
 .card-about{
     width: 100vw;
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     font-size: 4rem;
 }
 
 .about-text{
     align-self: center;
     margin-left: 35rem;
-    margin-right: 15rem;
+    margin-right: 20rem;
+    margin-top: 2rem;
+
 
     }
 
@@ -191,9 +207,9 @@ dd{
 
 .about-text dl,dd,dt{
 font-family:'Alfa Slab One' ;
-background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
-font-size: 1.5rem;
+background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font-size: 2rem;
 flex-wrap: wrap;
 text-align: justify;
 }
@@ -201,25 +217,27 @@ text-align: justify;
 #about{
     justify-self: center;
     align-self: center;
-    background-color: transparent;
+    background-color: white;
 }
 #about h2{
     font-family: 'Alfa Slab One';
-    background-color: transparent;
+    background-color: white;
+    font-size: 8rem;
+    color: black;
     
 }
 
 #logo-about{
     width: 500px;
     height: 500px;
-    opacity: 70%;
-    background-color: black;
-    margin-top: -20rem;
+    
+    background-color: rgb(255, 255, 255);
+    margin-top: -10rem;
 
 }
 .click-aqui-about{
-    color: white;
-    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
     top: 85%;
     left: 45%;
     padding: 1rem;
@@ -244,33 +262,33 @@ text-align: justify;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: black;
-    font-size: 4rem;
+    background-color: rgb(255, 255, 255);
+    
 
 }
 #contact{
-    
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    margin-top: 3rem;
 }
 #contact h2{
     font-family:'Alfa Slab One'; 
-    margin-top: -15rem;
-    background-color: black;
+    
+    background-color: rgb(255, 255, 255);
+    font-size: 8rem;
+    
+    color: black;
+
+    margin-top: -23rem;
     
 }
 .contact {
     justify-self: center;
     align-self: center;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    font-size: 5rem;
 
 }
 
-.contact a,h3{
-    background-color: black;
-    font-size: 2rem;
-    
-
-}
 .contact a{
     color: rgb(86, 86, 221);
 }
@@ -283,7 +301,7 @@ text-align: justify;
     justify-content: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    font-size: 1rem;
+    
     
 }
 
@@ -292,8 +310,8 @@ text-align: justify;
     color: black;
 }
 #info h2{
-    font-size: 5rem;
-    
+    font-size: 8rem;
+    margin-top: -20rem;
     justify-self: center;
     align-self: start;
 }
@@ -315,6 +333,7 @@ table {
     font-size: 2rem;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+    gap: 1rem;
 
 }
 th,td{
@@ -323,9 +342,19 @@ th,td{
     height: 3rem;
 }
 .card-extra{
-    margin-bottom: 3rem;
-    margin-top: -6rem;
+    margin-bottom: 5rem;
+    margin-top: -20rem;
     
+
+    
+}
+.card-extra a, h3{
+    margin-top: 3rem;
+    margin-left: 5rem;
+    font-family: 'Alfa Slab One'; 
+    font-size: 1.5rem;
+    
+
 }
 .card-extra h4{
     font-size: 1.5rem;
@@ -333,6 +362,7 @@ th,td{
     text-align: justify;
     margin-left: 5rem;
     margin-right: 5rem;
+
 }
 .contactos{
     display: flex;
@@ -370,6 +400,7 @@ th,td{
 #reglas h4{
     font-size: 2rem;
     flex-wrap: wrap;
+    background-color: white;
     color: black;
     text-align: center;
     font-family:'Alfa Slab One'; 
@@ -377,14 +408,151 @@ th,td{
     
 }
 #reglas h2{
-    font-size: 3rem;
+    background-color: white;
+    font-size: 6rem;
     color: black;
     font-family:'Alfa Slab One'; 
     text-align: center;
+    margin-top: -15rem;
 }
-
 .subrayado{
     font-size: 0.5rem;
     text-decoration: underline;
 }
 
+.lista-numero{
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 20rem;
+    text-align: justify;
+    flex-wrap: wrap;
+
+}
+.lista-desordenada{
+    margin-left: 10rem;
+    margin-right: 20rem;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.card-form{
+    background-color: rgb(255, 255, 255);
+    
+}
+.formulario section, label, h2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+}
+
+.formulario{
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-left: 20rem;
+    margin-right: 15rem;
+    margin-bottom: 10rem;
+
+}
+
+.formulario fieldset{
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.escuela {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.escuela input{
+    
+    margin:1rem;
+}
+
+.posicion{
+    font-size: 1.5rem;
+}
+.posicion input{
+    margin:1rem;
+}
+
+.uniforme{
+    font-size: 1.5rem;
+}
+
+.uniforme input{
+    margin:1rem;
+}
+#registracion {
+    background-color: rgb(255, 255, 255);
+}
+
+#registracion h2{
+    color: rgb(0, 0, 0);
+    font-size: 6rem;
+    font-family:'Alfa Slab One';  
+    margin-left: 21rem;
+
+}
+
+
+
+#volver-form{
+    background-color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    margin-top: -15rem;
+    margin-left: 92%;
+    
+
+}
+#volver-form a{
+    font-family:  'Alfa Slab One'; 
+    background-color:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+    padding: 1rem;
+    border-radius:10px;
+    text-decoration: none;
+}
+#volver-form a:hover{
+    background-color: crimson;
+}
+
+.locations{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.locations h2{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    
+    
+    
+}
+
+.enviar input{
+
+    font-family: 'Alfa Slab One';
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    margin: 3rem 0 1rem 3rem ;
+    padding:1rem;
+}
